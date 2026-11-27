@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Node / Wrangler (build-time only, never committed)
+node_modules/
+.wrangler/
+dist/
+
+# Local secrets — never commit
+.env
+.env.*
+*.pem
+*.key

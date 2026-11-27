@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — allowed. We want to be citable in AI search results.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://35energy.com/sitemap.xml

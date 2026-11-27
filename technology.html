@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HJT Technology — Why the Temperature Coefficient Matters | 35 Energy</title>
+<meta name="description" content="How heterojunction passivation delivers a −0.24%/°C temperature coefficient, up to 95% bifaciality and a lower carbon footprint than mainstream silicon cells.">
+<link rel="canonical" href="https://35energy.com/technology.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HJT Technology | 35 Energy">
+<meta property="og:description" content="Passivation, temperature and the physics of yield in hot climates.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' rx='6' fill='%2305100D'/%3E%3Cpath d='M8 19v-6M14 19V9.5M20 19V6' stroke='%2300D9A0' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<script>document.documentElement.className += ' js';</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav nav--dark" id="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="index.html" aria-label="35 Energy home">
+      <svg class="brand__mark" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <rect x=".6" y=".6" width="26.8" height="26.8" rx="6.6" stroke="currentColor" stroke-width="1.1" opacity=".22"/>
+        <path d="M8 19.5v-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+        <path d="M14 19.5V9.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+        <path d="M20 19.5V6.2" stroke="#00D9A0" stroke-width="1.9" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__name">35<span>energy</span></span>
+    </a>
+    <div class="nav__links">
+      <a class="nav__link" href="modules.html">Modules</a>
+      <a class="nav__link" href="cells.html">Cells</a>
+      <a class="nav__link" href="storage.html">Storage</a>
+      <a class="nav__link" href="facade.html">Facade</a>
+      <a class="nav__link is-active" href="technology.html">Technology</a>
+      <a class="nav__link" href="resources.html">Resources</a>
+      <a class="nav__link" href="company.html">Company</a>
+    </div>
+    <div class="nav__actions">
+      <a class="btn btn--primary btn--sm" href="contact.html">Request a quote</a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+    </div>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="modules.html">Modules</a>
+    <a href="cells.html">Cells</a>
+    <a href="storage.html">Storage</a>
+    <a href="facade.html">Facade</a>
+    <a href="technology.html">Technology</a>
+    <a href="resources.html">Resources</a>
+    <a href="company.html">Company</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn btn--primary" href="contact.html">Request a quote</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="page-head__grid" aria-hidden="true"></div>
+  <div class="container page-head__inner">
+    <div class="crumbs">
+      <a href="index.html">Home</a><span>/</span><span style="opacity:1;color:var(--text-inv)">Technology</span>
+    </div>
+    <h1>The yield is in the degrees.</h1>
+    <p class="lede">
+      A module is rated at 25&nbsp;&deg;C. An operating module in Riyadh, Karachi or Sicily
+      spends most of its life well above that. Heterojunction passivation keeps the voltage
+      from collapsing as the junction heats — and that is where the extra energy actually comes from.
+    </p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="split split--wide-left split--top">
+      <div>
+        <p class="eyebrow">The mechanism</p>
+        <h2>Two layers of amorphous silicon do the work.</h2>
+        <p class="lede" style="margin-top:22px">
+          A heterojunction cell puts a thin intrinsic amorphous silicon layer between the
+          crystalline wafer and the doped contact. That passivates the surface — it stops
+          electrons and holes from recombining at the boundary — and it does so at temperatures
+          below 200&nbsp;&deg;C.
+        </p>
+        <div class="prose" style="margin-top:28px">
+          <p>
+            <strong>Better passivation means higher open-circuit voltage.</strong> Voc is the
+            single largest lever on cell efficiency, and HJT's advantage there is structural
+            rather than incremental.
+          </p>
+          <p>
+            <strong>Lower process temperature means less thermal damage to the wafer.</strong>
+            A diffusion furnace runs above 800&nbsp;&deg;C; heterojunction deposition runs under
+            200&nbsp;&deg;C. The wafer keeps its bulk lifetime, which is what makes thin wafers
+            viable in the first place.
+          </p>
+          <p>
+            <strong>Symmetrical structure means a working rear side.</strong> Both faces get
+            the same passivation stack, so the back of the module generates — not just the front.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="diagram reveal">
+          <div class="diagram__inner">
+            <svg viewBox="0 0 320 432" width="100%" role="img" aria-label="HJT layer stack compared with a diffused junction cell">
+              <title>HJT versus diffused junction</title>
+
+              <text x="0" y="12" font-family="ui-monospace, Consolas, monospace" font-size="9" fill="#00D9A0" letter-spacing="1.2">HJT — SYMMETRIC</text>
+
+              <g font-family="ui-monospace, Consolas, monospace" font-size="9" fill="rgba(242,246,244,.62)" text-anchor="end">
+                <text x="92" y="35">Ag / Cu grid</text>
+                <text x="92" y="65">TCO</text>
+                <text x="92" y="95">p-a-Si:H</text>
+                <text x="92" y="125">i-a-Si:H</text>
+                <text x="92" y="171">n-type c-Si</text>
+                <text x="92" y="209">i-a-Si:H</text>
+                <text x="92" y="239">n-a-Si:H</text>
+                <text x="92" y="269">TCO</text>
+              </g>
+              <g>
+                <rect x="104" y="24" width="212" height="14" fill="#C8D6D2" opacity=".34"/>
+                <path d="M116 24v14M140 24v14M164 24v14M188 24v14M212 24v14M236 24v14M260 24v14M284 24v14" stroke="#C8D6D2" stroke-width="1.6" opacity=".55"/>
+                <rect x="104" y="54" width="212" height="14" fill="#8FD4E8" opacity=".3"/>
+                <rect x="104" y="84" width="212" height="14" fill="#00D9A0" opacity=".3"/>
+                <rect x="104" y="114" width="212" height="14" fill="#7CF5C8" opacity=".18"/>
+                <rect x="104" y="144" width="212" height="38" fill="#12314B" stroke="rgba(143,212,232,.45)" stroke-width=".8"/>
+                <rect x="104" y="198" width="212" height="14" fill="#7CF5C8" opacity=".18"/>
+                <rect x="104" y="228" width="212" height="14" fill="#00D9A0" opacity=".24"/>
+                <rect x="104" y="258" width="212" height="14" fill="#8FD4E8" opacity=".24"/>
+              </g>
+              <text x="210" y="167" font-family="ui-monospace, Consolas, monospace" font-size="9" fill="rgba(242,246,244,.75)" text-anchor="middle">100 &micro;m &middot; passivated both faces</text>
+              <path d="M318 24v-12M318 272v12" stroke="rgba(0,217,160,.8)" stroke-width="1"/>
+              <text x="318" y="8" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="rgba(0,217,160,.8)" text-anchor="end">BIFACIAL</text>
+
+              <line x1="0" y1="292" x2="320" y2="292" stroke="rgba(242,246,244,.14)" stroke-width="1"/>
+
+              <text x="0" y="310" font-family="ui-monospace, Consolas, monospace" font-size="9" fill="rgba(242,246,244,.5)" letter-spacing="1.2">DIFFUSED JUNCTION</text>
+              <g font-family="ui-monospace, Consolas, monospace" font-size="9" fill="rgba(242,246,244,.5)" text-anchor="end">
+                <text x="92" y="327">ARC</text>
+                <text x="92" y="348">emitter</text>
+                <text x="92" y="380">c-Si</text>
+                <text x="92" y="412">rear</text>
+              </g>
+              <g>
+                <rect x="104" y="318" width="212" height="12" fill="rgba(242,246,244,.16)"/>
+                <rect x="104" y="336" width="212" height="18" fill="#6B4433" opacity=".85"/>
+                <rect x="104" y="360" width="212" height="36" fill="#12314B" stroke="rgba(143,212,232,.22)" stroke-width=".8"/>
+                <rect x="104" y="402" width="212" height="12" fill="rgba(242,246,244,.16)"/>
+              </g>
+              <text x="210" y="350" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="rgba(255,255,255,.8)" text-anchor="middle">one-sided</text>
+              <text x="210" y="382" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="rgba(242,246,244,.55)" text-anchor="middle">monofacial rear</text>
+            </svg>
+          </div>
+          <p class="diagram__cap">SYMMETRIC PASSIVATION VS ONE-SIDED EMITTER</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper2">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">The consequence</p>
+        <h2>Same nameplate. Different energy.</h2>
+      </div>
+      <p class="lede">
+        Take three modules with identical 25&nbsp;&deg;C ratings and heat them. The gap that
+        opens is not a marketing number — it is the difference between two financial models.
+      </p>
+    </div>
+
+    <div class="viz reveal" style="padding:34px">
+      <div class="viz__title">
+        <h4>Relative power output versus cell temperature</h4>
+        <span>NORMALISED TO 25 &deg;C</span>
+      </div>
+
+      <svg viewBox="0 0 600 300" width="100%" role="img" aria-label="Line chart of relative power output from 25 to 75 degrees celsius for HJT, TOPCon and PERC" style="margin-top:18px">
+        <title>Power output versus cell temperature</title>
+        <g stroke="rgba(5,16,13,.08)" stroke-width="0.8">
+          <line x1="60" y1="50" x2="560" y2="50"/>
+          <line x1="60" y1="90" x2="560" y2="90"/>
+          <line x1="60" y1="130" x2="560" y2="130"/>
+          <line x1="60" y1="170" x2="560" y2="170"/>
+          <line x1="60" y1="210" x2="560" y2="210"/>
+        </g>
+        <g stroke="rgba(5,16,13,.14)" stroke-width="0.8">
+          <line x1="60" y1="250" x2="560" y2="250"/>
+          <line x1="60" y1="40" x2="60" y2="250"/>
+        </g>
+        <g font-family="ui-monospace, Consolas, monospace" font-size="9.5" fill="#7C8A85">
+          <text x="52" y="54" text-anchor="end">100</text>
+          <text x="52" y="94" text-anchor="end">96</text>
+          <text x="52" y="134" text-anchor="end">92</text>
+          <text x="52" y="174" text-anchor="end">88</text>
+          <text x="52" y="214" text-anchor="end">84</text>
+          <text x="52" y="254" text-anchor="end">80</text>
+          <text x="60" y="270" text-anchor="middle">25</text>
+          <text x="185" y="270" text-anchor="middle">37.5</text>
+          <text x="310" y="270" text-anchor="middle">50</text>
+          <text x="435" y="270" text-anchor="middle">62.5</text>
+          <text x="560" y="270" text-anchor="middle">75</text>
+          <text x="310" y="290" text-anchor="middle" fill="#55635E">CELL TEMPERATURE &deg;C</text>
+          <text x="26" y="145" text-anchor="middle" fill="#55635E" transform="rotate(-90 26 145)">% OF RATED POWER</text>
+        </g>
+
+        <path d="M60 50L560 225" fill="none" stroke="#B4B2A9" stroke-width="1.2" stroke-dasharray="4 4"/>
+        <text x="552" y="221" font-family="ui-monospace, Consolas, monospace" font-size="9.5" fill="#888780" text-anchor="end">PERC 82.5%</text>
+
+        <path d="M60 50L560 200" fill="none" stroke="#888780" stroke-width="1.2" stroke-dasharray="4 4"/>
+        <text x="552" y="196" font-family="ui-monospace, Consolas, monospace" font-size="9.5" fill="#888780" text-anchor="end">TOPCon 85.0%</text>
+
+        <path d="M60 50L560 170" fill="none" stroke="#00D9A0" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="560" cy="170" r="4" fill="#00D9A0"/>
+        <text x="552" y="160" font-family="ui-monospace, Consolas, monospace" font-size="10" fill="#00A87C" text-anchor="end" font-weight="600">HJT 88.0%</text>
+
+        <line x1="560" y1="170" x2="560" y2="250" stroke="#00D9A0" stroke-width="0.8" stroke-dasharray="3 3" opacity=".5"/>
+      </svg>
+
+      <p class="viz__cap">
+        Calculated from the temperature coefficient of Pmax at 1000&nbsp;W/m&sup2;, linear
+        approximation: HJT &minus;0.24%/&deg;C, TOPCon &minus;0.30%/&deg;C, PERC &minus;0.35%/&deg;C
+        (the latter two at typical published values, for orientation). At 75&nbsp;&deg;C cell
+        temperature the spread between HJT and PERC is about 5.5 percentage points of output.
+        Real arrays also depend on irradiance, wind speed, mounting and soiling.
+      </p>
+    </div>
+
+    <div class="cards cards--3 reveal" style="margin-top:24px;grid-template-columns:repeat(3,1fr)">
+      <div class="card" style="padding:26px;background:transparent;border-color:var(--line)">
+        <p class="card__num">AT 60 &deg;C CELL</p>
+        <h3 style="font-size:1.1rem">HJT +2.1 pts vs TOPCon</h3>
+        <p style="margin-top:8px;font-size:13px">Typical mid-afternoon junction temperature in a hot-climate ground mount.</p>
+      </div>
+      <div class="card" style="padding:26px;background:transparent;border-color:var(--line)">
+        <p class="card__num">AT 75 &deg;C CELL</p>
+        <h3 style="font-size:1.1rem">HJT +3.0 pts vs TOPCon</h3>
+        <p style="margin-top:8px;font-size:13px">Peak summer condition, low wind, dark mounting surface.</p>
+      </div>
+      <div class="card" style="padding:26px;background:transparent;border-color:var(--line)">
+        <p class="card__num">COMPOUNDED</p>
+        <h3 style="font-size:1.1rem">Affects every kWh, daily</h3>
+        <p style="margin-top:8px;font-size:13px">The gap does not narrow with age — it applies to production for 30 years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split split--top">
+      <div>
+        <p class="eyebrow">Comparison</p>
+        <h2>An honest table.</h2>
+        <p class="lede" style="margin-top:22px">
+          HJT is not better at everything, and it is not the cheapest cell to buy. Here is
+          where the lines actually differ.
+        </p>
+        <div class="notice" style="margin-top:32px">
+          <svg class="notice__ico" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 8h.01M11 12h1v5h1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <div>
+            Third-party figures below are typical published industry values shown for
+            orientation, not measurements of any specific competitor product. Request a
+            like-for-like test report before comparing tender submissions.
+          </div>
+        </div>
+      </div>
+
+      <div class="spec-wrap">
+        <div class="spec-head">
+          <h3>Technology comparison</h3>
+          <span>TYPICAL VALUES</span>
+        </div>
+        <div class="tbl-scroll">
+          <table class="spec" style="min-width:520px">
+            <thead>
+              <tr>
+                <th>Attribute</th>
+                <th>HJT</th>
+                <th>TOPCon</th>
+                <th>PERC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Cell efficiency, mass production</td><td class="hl">26.0%+</td><td>~25%</td><td>~23.5%</td></tr>
+              <tr><td>Temp. coefficient Pmax</td><td class="hl">&minus;0.24</td><td>~&minus;0.30</td><td>~&minus;0.35</td></tr>
+              <tr><td>Bifaciality</td><td class="hl">up to 95%</td><td>80&ndash;85%</td><td>70&ndash;75%</td></tr>
+              <tr><td>Wafer thickness in volume</td><td class="hl">100 &micro;m</td><td>130&ndash;150 &micro;m</td><td>150&ndash;170 &micro;m</td></tr>
+              <tr><td>Process temperature</td><td class="hl">&lt; 200 &deg;C</td><td>&gt; 800 &deg;C</td><td>&gt; 800 &deg;C</td></tr>
+              <tr><td>Metallisation silver load</td><td class="hl">Low (0BB, Ag-Cu)</td><td>Baseline</td><td>Baseline</td></tr>
+              <tr><td>First-year degradation</td><td class="hl">1%</td><td>~1%</td><td>~2%</td></tr>
+              <tr><td>Capital cost per GW of line</td><td>Higher</td><td>Baseline</td><td>Lower</td></tr>
+              <tr><td>Supply maturity in the market</td><td>Growing</td><td>Dominant</td><td>Declining</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="tbl-note">
+          The last two rows are the ones that matter commercially. HJT carries a higher line
+          capex and a smaller installed base — you are buying performance and a roadmap, not
+          the safest commodity option.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink">
+  <div class="container">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Carbon</p>
+        <h2>Thin wafers are a carbon argument, not just a cost argument.</h2>
+      </div>
+      <p class="lede">
+        Silicon is the most energy-intensive input in a module. Cutting wafer thickness from
+        150&nbsp;&micro;m to 100&nbsp;&micro;m removes a third of that material — and the
+        polysilicon energy embedded in it.
+      </p>
+    </div>
+
+    <div class="split split--top">
+      <div>
+        <ul class="feature-list">
+          <li>
+            <span class="feature-list__idx">01</span>
+            <div>
+              <h4>Less polysilicon per watt</h4>
+              <p>A thinner wafer means less high-purity silicon, and silicon purification is where most of a module's embodied energy sits.</p>
+            </div>
+          </li>
+          <li>
+            <span class="feature-list__idx">02</span>
+            <div>
+              <h4>Lower process energy</h4>
+              <p>Deposition under 200&nbsp;&deg;C instead of a diffusion furnace above 800&nbsp;&deg;C. Less electricity per cell, before you count the thinner wafer.</p>
+            </div>
+          </li>
+          <li>
+            <span class="feature-list__idx">03</span>
+            <div>
+              <h4>Documented, not asserted</h4>
+              <p>A carbon footprint claim is only worth what the underlying study says. We commission product-level assessments and release them with the datasheet package — we do not put "low carbon" on a banner and leave it there.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="notice" style="background:rgba(242,246,244,.06);border-color:var(--line-inv);color:var(--text-inv-mute);margin-top:32px">
+          <svg class="notice__ico" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="color:rgba(242,246,244,.5)"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 8h.01M11 12h1v5h1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <div>
+            Carbon footprint figures are market- and methodology-dependent. If you are
+            responding to a French, Italian or Dutch tender with a specific calculation
+            method, send us the method and we will tell you what we can document against it.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="viz" style="background:transparent;border-color:var(--line-inv)">
+          <div class="viz__title">
+            <h4 style="color:var(--text-inv)">Silicon consumed per kWp</h4>
+            <span style="color:rgba(242,246,244,.45)">INDEXED</span>
+          </div>
+          <div class="bar-rows">
+            <div class="bar-row">
+              <span class="bar-row__label" style="color:var(--text-inv-mute)">170 &micro;m</span>
+              <div class="bar-row__track" style="background:rgba(242,246,244,.1)"><div class="bar-row__fill" data-w="100" style="background:rgba(242,246,244,.3)"></div></div>
+              <span class="bar-row__val" style="color:var(--text-inv-mute)">100</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-row__label" style="color:var(--text-inv-mute)">140 &micro;m</span>
+              <div class="bar-row__track" style="background:rgba(242,246,244,.1)"><div class="bar-row__fill" data-w="82" style="background:rgba(242,246,244,.3)"></div></div>
+              <span class="bar-row__val" style="color:var(--text-inv-mute)">82</span>
+            </div>
+            <div class="bar-row is-hl">
+              <span class="bar-row__label" style="color:var(--text-inv)">100 &micro;m</span>
+              <div class="bar-row__track" style="background:rgba(242,246,244,.1)"><div class="bar-row__fill is-hl" data-w="59"></div></div>
+              <span class="bar-row__val" style="color:var(--text-inv)">59</span>
+            </div>
+            <div class="bar-row">
+              <span class="bar-row__label" style="color:var(--text-inv-mute)">65 &micro;m</span>
+              <div class="bar-row__track" style="background:rgba(242,246,244,.1)"><div class="bar-row__fill" data-w="38" style="background:rgba(0,217,160,.45)"></div></div>
+              <span class="bar-row__val" style="color:var(--text-inv-mute)">38</span>
+            </div>
+          </div>
+          <p class="viz__cap" style="color:rgba(242,246,244,.4)">
+            Proportional to wafer thickness per unit of generating area. Not a full life-cycle
+            assessment — it isolates the silicon input only.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <div class="cta-band__inner">
+        <div>
+          <h2>Want the yield model for your site?</h2>
+          <p>
+            Send coordinates, mounting type, capacity and grid date. We will run the
+            irradiance and temperature profile and come back with an annual production
+            estimate you can put into your own financial model.
+          </p>
+        </div>
+        <div class="cta-band__actions">
+          <a class="btn btn--primary" href="contact.html">Request a yield model</a>
+          <a class="btn btn--ghost-inv" href="modules.html">See modules</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" style="color:var(--text-inv)">
+          <svg class="brand__mark" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x=".6" y=".6" width="26.8" height="26.8" rx="6.6" stroke="currentColor" stroke-width="1.1" opacity=".22"/>
+            <path d="M8 19.5v-6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+            <path d="M14 19.5V9.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+            <path d="M20 19.5V6.2" stroke="#00D9A0" stroke-width="1.9" stroke-linecap="round"/>
+          </svg>
+          <span class="brand__name">35<span>energy</span></span>
+        </a>
+        <p>
+          HJT heterojunction cells and modules. A Liansheng Technology platform,
+          listed on the Shenzhen Stock Exchange as 300051.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h5>Products</h5>
+        <a href="modules.html">Modules</a>
+        <a href="cells.html">Cells</a>
+        <a href="storage.html">Storage</a>
+        <a href="facade.html">Facade</a>
+        <a href="technology.html">Technology</a>
+        <a href="resources.html">Datasheets</a>
+      </div>
+      <div class="footer__col">
+        <h5>Company</h5>
+        <a href="company.html">About</a>
+        <a href="company.html#manufacturing">Manufacturing</a>
+        <a href="company.html#esg">ESG &amp; compliance</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h5>Contact</h5>
+        <a href="mailto:sales@35energy.com">sales@35energy.com</a>
+        <a href="contact.html">Request a quote</a>
+        <a href="contact.html#partners">Become a distributor</a>
+        <a href="legal.html">Privacy &amp; cookies</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span data-year>2026</span> 35 Energy. All rights reserved.</span>
+      <div class="footer__legal">
+        <a href="legal.html">Privacy</a>
+        <a href="legal.html#cookies">Cookies</a>
+        <a href="legal.html#terms">Terms</a>
+        <a href="legal.html#modern-slavery">Supply chain statement</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie" role="dialog" aria-label="Cookie preferences">
+  <div class="cookie__txt">
+    We use strictly necessary cookies to run this site. With your permission we also use
+    analytics cookies to understand which pages buyers actually read.
+    <a href="legal.html#cookies">Cookie notice</a>.
+  </div>
+  <div class="cookie__act">
+    <button class="btn btn--ghost-inv btn--sm" data-consent="necessary">Necessary only</button>
+    <button class="btn btn--primary btn--sm" data-consent="all">Accept all</button>
+  </div>
+</div>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

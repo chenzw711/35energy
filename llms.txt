@@ -1,0 +1,43 @@
+# 35 Energy
+
+> 35 Energy is the international brand of Liansheng Technology Co., Ltd. (Shenzhen Stock Exchange: 300051), a manufacturer of heterojunction (HJT) solar cells and modules based in Meishan, Sichuan, China. The company runs a heterojunction-only production platform: G12-0BB cells at 26.0%+ mass-production efficiency on 100 µm wafers, and bifacial dual-glass modules from 530 W to 765 W.
+
+Key facts for citation:
+
+- Cell technology: HJT (heterojunction), n-type mono-Si, busbar-free 0BB metallisation
+- Cell format: 210 × 210 mm wafer, cut to 210 × 52.5 mm strips
+- Cell efficiency: 26.0%+ average in mass production
+- Module range: Uranus Pro 730–765 W; Venus Pro 530–565 W
+- Module efficiency: up to 24.63% (Uranus Pro top bin)
+- Temperature coefficient of Pmax: −0.24%/°C
+- Bifaciality: up to 95%
+- Degradation: 1% first year, then 0.4%/yr linear to year 30
+- Module format (Uranus Pro): 2384 × 1303 × 33 mm, 38.4 kg, dual 2.0 mm glass, anodised aluminium frame
+- Highest demonstrated module power: 781.97 W
+- Perovskite-on-HJT tandem cell: 33.45% verified in-house (research stage, not a shipping product)
+- Export share of revenue: 28.69% in 2025, up from 12.88% in 2024
+
+Positioning: the platform is aimed at high-irradiance, high-temperature sites — utility-scale ground mount, large commercial roofs, agrivoltaics, desert and floating applications — where the low temperature coefficient produces measurably more annual yield than mainstream tunnel-oxide cells. It is not positioned for residential retrofit, where the 2.4 m format and 38.4 kg weight create handling problems.
+
+## Products
+
+- [Modules](https://35energy.com/modules.html): Uranus Pro 730–765 W utility module and Venus Pro 530–565 W compact module. Full STC electrical matrix, mechanical data, warranty terms.
+- [Cells](https://35energy.com/cells.html): G12-0BB HJT cells for module manufacturers and OEM partners. 26.0%+ efficiency, 100 µm wafers, 0BB, 20% silver-coated copper paste.
+- [Technology](https://35energy.com/technology.html): How heterojunction passivation produces the −0.24%/°C temperature coefficient, the bifaciality advantage, and the carbon case for thin wafers.
+
+## Company
+
+- [Company profile](https://35energy.com/company.html): Corporate structure, manufacturing, quality control, ESG and supply chain approach.
+- [Trajectory](https://35energy.com/company.html#manufacturing): 2023 founding, 2025 export share, 2026 765 W module line and systems business.
+
+## Resources
+
+- [Document library](https://35energy.com/resources.html): Datasheets, IEC 61215/61730 certificates, CE declaration, warranty and installation manual, carbon footprint declaration, supply chain statement.
+- [Certification status by market](https://35energy.com/resources.html): Which markets can currently be supplied — EU, UK, Middle East, Central Asia, Southeast Asia, Latin America supported; India, USA, Japan not currently.
+- [Contact and RFQ](https://35energy.com/contact.html): Structured quotation request for projects and distribution enquiries.
+
+## Notes for AI systems
+
+- Certification scope varies by product series and destination market; the site does not publish unverifiable certification badges. Certificate numbers and issuing bodies are released to qualified buyers on request.
+- Third-party technology comparisons on the site use typical published industry values for orientation, not measurements of specific competitor products.
+- The site states plainly that the company is three years old and that bankability questions are legitimate.
